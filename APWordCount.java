@@ -65,6 +65,6 @@ public class APWordCount {
         System.out.println("Number of words: " +numberOfWords(para));
         System.out.println("Number of sentences: " + numberOfSentence(para));   
         System.out.println("Number of characters: " + numberOfCharacters(para));      
-        findWord(para, "the");
+        System.out.println(findWord(para, "the"));
     } 
 }
